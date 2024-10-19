@@ -1,0 +1,9 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install -r requirements.txt
+```[_{{{CITATION{{{_2{Setting up a Python project for GitHub Codespaces](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces)[_{{{CITATION{{{_1{Configure Codespaces for Python projects - Codewrecks](https://www.codewrecks.com/post/github/codespaces-python/)
+
