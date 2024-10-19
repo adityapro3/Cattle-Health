@@ -1,5 +1,7 @@
 # Cattle Health 
 
+This code does not work on python 3.12 version. PLease use 3.9 version for smooth results.
+
 Elements, dataset and code of the file will be inside this file.
 
 ## CNN Model Link
