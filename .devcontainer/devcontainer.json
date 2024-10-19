@@ -1,16 +1,16 @@
 {
     "name": "Python 3.9",
-    "build": {
-        "dockerfile": "Dockerfile"
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.9",
+    "features": {
+        "python": "3.9"
     },
-    "settings": {
-        "python.pythonPath": "/usr/bin/python3.9"
-    },
-    "extensions": [
-        "ms-python.python"
-    ],
-    "forwardPorts": [8000, 8080],
-    "postCreateCommand": "pip install -r requirements.txt"
+    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    }
 }
-```[_{{{CITATION{{{_2{Setting up a Python project for GitHub Codespaces](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces)[_{{{CITATION{{{_1{Configure Codespaces for Python projects - Codewrecks](https://www.codewrecks.com/post/github/codespaces-python/)
-
