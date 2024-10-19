@@ -1,4 +1,4 @@
-# Cattle Disease Prediction 
+# Cattle Health 
 
 Elements, dataset and code of the file will be inside this file.
 
